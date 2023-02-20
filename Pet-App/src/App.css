@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgba(31, 31, 101, 0.5);
+}
+
+.header{
+  font-size: 50px ;
+  background-color: rgb(113, 113, 198);
+  margin: 0;
+  padding: 10px 20px;
+}
+.nav{
+  background-color: rgb(247, 238, 202);
+  height: 100vh;
+  width: 200px;
+}
+.nav nav{
+  padding: 20px;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+ 
+}
+nav a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  font-size: 20px;
+}
+/* FORMIK VALIDATION STYLING */
+span{
+  color: red;
+  font-size: 15px;
+  list-style: none;
+}
+
+/* LOGIN */
+.main h1{
+  text-align: center;
+}
+.main{
+  max-width: 450px;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 30px;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 40px;
+  color: white;
+}
+
+input[type],button{
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: 15px;
+  margin-top: 25px;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  border-radius: 10px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 5px;
+}
+input[type="submit"],.main button{
+  background-color: blue;
+  opacity: 0.5;
+  color: white;
+}
+input[type="submit"]:hover{
+  background-color:  blue;
+  opacity: 1;
+}
+
+input:focus{
+  color: rgb(157, 50, 190); 
+}
+button:hover{
+  background-color:  blue;
+  opacity: 1;
+}
+form button{
+  position: absolute;
+  top:300px;
+  left: 890px;
+  width: 30px;
+  height: 20px;
+  background-color: rgba(141, 129, 129, 0.2);
+  border-radius: 50%;
+  color: wheat;
+}
+form button:hover{
+  background-color: rgba(180, 255, 255,0.4);
+  color: black;
+}
+/* CREATE PAGE */
+
+.create-page{
+  display: flex;
+
+}
+
+/* MEDIA QUERY FOR SIGNUP AND LOGIN PAGE, MOBILE VIEW */
+@media screen and (max-width:500px){
+  .main{
+      max-width: 300px;
+  }
+}
